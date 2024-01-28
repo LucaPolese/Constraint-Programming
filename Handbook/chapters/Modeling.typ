@@ -20,7 +20,7 @@ We can use two different approaches to determine the constraints:
 - Usually it's better to use relations between objects. 
   - Less general, but more compact and clear.
 
-=== Properties of contraints
+=== Properties of constraints
 - The order of imposition does not matter
 - Non-directional: a constraint between $X$ and $Y$ can be used on $Y$ and X and vice versa
 - Rarely independent, usually variables are shared between different constraints.
@@ -30,6 +30,7 @@ We can use two different approaches to determine the constraints:
   columns: (1fr, 2fr),
   inset: 5pt,
   align: horizon,
+  [*Type*],[*Example*],
   [Algebraic expressions], [$x_1 > x_2$],
   [Extensional constraints \ (_table_ constraints)], [$(X, Y, Z) in {(a, a, a), (b, b, b)}$],
   [Variables as subscripts \ (_element_ constraints)], [$Y = "cost"[X]$ \ (where cost is an array of parameters)],

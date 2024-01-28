@@ -15,3 +15,4 @@
 
 #include "chapters/Introduction.typ"
 #include "chapters/Modeling.typ"
+#include "chapters/ConstraintPropagation.typ"
