@@ -13,6 +13,9 @@
   date: datetime.today().display("[month repr:long] [day], [year]"),
 )
 
+#outline(indent: auto)
+#pagebreak()
+
 #include "chapters/Introduction.typ"
 #include "chapters/Modeling.typ"
 #include "chapters/ConstraintPropagation.typ"

@@ -11,9 +11,9 @@
   let sans-font = "New Computer Modern Sans"
 
   // Set body font family.
-  set text(font: body-font, lang: "it")
+  set text(font: body-font, lang: "en")
   show math.equation: set text(weight: 400)
-  show heading: set text(font: sans-font)
+  set heading(numbering: "1.1")
 
   // Title row.
   align(center)[
@@ -37,6 +37,14 @@
       ]),
     ),
   )
+
+  // Outline
+  show outline.entry.where(
+    level: 1
+  ): it => {
+    v(12pt, weak: true)
+    strong(it)
+  }
 
   // Main body.
   set par(justify: true)
